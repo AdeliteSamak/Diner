@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img1 { background-image: url("./visuals/restaurant.jpg"); }
+  .img2 { background-image: url("./visuals/serving.jpg"); }
+  .img3 { background-image: url("./visuals/plating.jpg"); }
+  .img4 { background-image: url("./visuals/dessert.jpg"); }
+  .img5 { background-image: url("./visuals/wine.jpg"); }
+  .img6 { background-image: url("./visuals/glasses.jpg"); }
+  
+  .bg-text {
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  
